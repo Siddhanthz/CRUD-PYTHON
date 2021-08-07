@@ -23,7 +23,7 @@ record=  ('Harry Potter', 'Dainel Radcliffe','Emma Watson','David Yates', '2001'
 record1= ('Fast and Furious', 'Vin Diesel', 'Jordana Brewster', 'Justin Lin', '2001')
 record2= ('Iron Man', 'Robert Downey, Jr.', 'Gwyneth Paltrow', 'Jon Favreau', '2008')
 
-#cursor.execute(query, record)
+cursor.execute(query, record)
 cursor.execute(query,record1)
 cursor.execute(query,record2)
 mydb.commit()
